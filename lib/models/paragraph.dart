@@ -4,7 +4,7 @@ import 'package:collection/collection.dart';
 class Paragraph {
   final List<String> description;
 
-  Paragraph(this.description);
+  const Paragraph(this.description);
 
   @override
   operator ==(Object other) {
