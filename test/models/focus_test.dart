@@ -33,6 +33,7 @@ void main() {
           "coordination",
           "grace",
           "precision",
+          "focuses"
         ].map((e) => Symbol(e))));
   });
 }

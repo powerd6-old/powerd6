@@ -7,8 +7,14 @@ class AttributeValue {
 
 /// An enumeration for the accepted `AttributeValue`s
 class AttributeValues {
+  static const AttributeValue minimum = abysmal;
+  static const AttributeValue maximum = legendary;
+
+  /// An `AttributeValue` of -3
+  static const AttributeValue abysmal = AttributeValue(-3);
+
   /// An `AttributeValue` of -2
-  static const AttributeValue abysmal = AttributeValue(-2);
+  static const AttributeValue terrible = AttributeValue(-2);
 
   /// An `AttributeValue` of -1
   static const AttributeValue bad = AttributeValue(-1);

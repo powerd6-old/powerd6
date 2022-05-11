@@ -21,6 +21,7 @@ void main() {
           "agility",
           "wisdom",
           "dexterity",
+          "attributes"
         ].map((e) => Symbol(e))));
   });
 }

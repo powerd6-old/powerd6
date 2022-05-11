@@ -15,7 +15,10 @@ void main() {
     expect(
         enumeratedVariables,
         equals([
+          "minimum",
+          "maximum",
           "abysmal",
+          "terrible",
           "bad",
           "average",
           "aboveAverage",

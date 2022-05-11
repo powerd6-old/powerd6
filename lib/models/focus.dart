@@ -124,4 +124,25 @@ class Focuses {
         "Precise and measured movements are what precision is all about.",
         "Shooting targets, picking locks or operating on someone need precision."
       ]));
+
+  static const List<Focus> focuses = [
+    awareness,
+    insight,
+    instinct,
+    power,
+    endurance,
+    toughness,
+    likeability,
+    persuasion,
+    seduction,
+    flexibility,
+    reflexes,
+    speed,
+    judgment,
+    knowledge,
+    mysticism,
+    coordination,
+    grace,
+    precision,
+  ];
 }

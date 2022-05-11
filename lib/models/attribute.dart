@@ -70,4 +70,13 @@ class Attributes {
           Paragraph(["Dexterity related to the effectiveness of movement."]),
       abbreviation: "DEX",
       focuses: [Focuses.coordination, Focuses.grace, Focuses.precision]);
+
+  static const List<Attribute> attributes = [
+    perception,
+    strength,
+    charisma,
+    agility,
+    wisdom,
+    dexterity,
+  ];
 }
