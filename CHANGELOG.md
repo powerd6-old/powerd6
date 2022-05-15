@@ -17,6 +17,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+## [1.2.0]
+
+### Added
+
+- `Character` properties
+- Cost to `items`
+
+### Changed
+
+- `Paragraph` now have `lines` instead of `description`
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+
 ## [1.1.0] - 2022-05-11
 
 ### Fixed

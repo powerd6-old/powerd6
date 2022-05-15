@@ -1,12 +1,15 @@
+import 'package:powerd6/models/currency.dart';
 import 'package:powerd6/models/paragraph.dart';
 
 /// A physical item that exists and optionally has effects.
 class Item {
   final String name;
   final Paragraph description;
-  final String? effects;
+  final Paragraph? effects;
+  final Map<Currency, int>? cost;
 
-  Item({required this.name, required this.description, this.effects});
+  Item(
+      {required this.name, required this.description, this.effects, this.cost});
 
   @override
   operator ==(Object other) {

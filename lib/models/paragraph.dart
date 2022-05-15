@@ -2,16 +2,15 @@ import 'package:collection/collection.dart';
 
 /// A set of lines describing something
 class Paragraph {
-  final List<String> description;
+  final List<String> lines;
 
-  const Paragraph(this.description);
+  const Paragraph(this.lines);
 
   @override
   operator ==(Object other) {
-    return other is Paragraph &&
-        IterableEquality().equals(description, other.description);
+    return other is Paragraph && IterableEquality().equals(lines, other.lines);
   }
 
   @override
-  int get hashCode => description.hashCode;
+  int get hashCode => lines.hashCode;
 }
